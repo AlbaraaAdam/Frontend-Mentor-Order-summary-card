@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@300;900&display=swap");
+
+body {
+  margin: 0;
+  background: rgb(220, 231, 253) url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: "Roboto";
+  align-items: center;
+  height: auto;
+  text-align: center;
+}
+.main-div {
+  padding: 5em;
+}
+.background {
+  object-fit: cover;
+  text-align: center;
+  background-color: white;
+  line-height: 1.9em;
+  border-radius: 1.3em;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
+  width: 350px;
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 1.3em 1.3em 0 0;
+}
+.info {
+  margin: 0 2em;
+}
+p {
+  color: gray;
+}
+.sub {
+  padding: 1em;
+  display: flex;
+  background: rgb(240, 244, 250);
+  height: 56px;
+  border-radius: 0.5em;
+  margin-bottom: 1em;
+}
+.sub a {
+  padding-top: 0.5em;
+  padding-right: 0.2em;
+  width: 20%;
+}
+.sub2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -0.3em;
+  width: 57%;
+}
+.sub div div {
+  text-align: left;
+  padding-left: 1.5em;
+}
+.annual {
+  font-weight: bold;
+}
+.sub img {
+  width: 23%;
+}
+input[type="button"] {
+  width: 100%;
+  padding: 1em 0;
+  color: white;
+  border: none;
+  background-color: rgb(58, 36, 255);
+  border-radius: 0.5em;
+  font-size: 1em;
+  box-shadow: 0px 15px 30px rgba(114, 73, 250, 0.3);
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: rgb(40, 25, 175);
+}
+
+.cancel {
+  margin-top: 1.5em;
+  padding-bottom: 2em;
+}
+.cancel a {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+.attribution {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+@media (min-width: 720px) {
+  body {
+    background: rgb(220, 231, 253)
+      url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
